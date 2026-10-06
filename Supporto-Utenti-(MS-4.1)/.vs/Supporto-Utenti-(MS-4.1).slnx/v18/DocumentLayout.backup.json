@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.1)\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.1)\\notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 213,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Request.cs",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Request.cs",
+              "RelativeDocumentMoniker": "Request.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Request.cs",
+              "RelativeToolTip": "Request.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAQwJMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T19:23:14.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswFQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T19:18:53.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T19:17:54.993Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 187,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "aa731d1b-a173-489a-9044-a7f72e2379ff",
+        "Display": 0,
+        "X": 394,
+        "Y": 120,
+        "Width": 1136,
+        "Height": 787,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "notes.md",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\notes.md",
+              "RelativeDocumentMoniker": "notes.md",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\notes.md",
+              "RelativeToolTip": "notes.md",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-06T19:23:55.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
