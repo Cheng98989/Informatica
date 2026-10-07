@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.1)\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.1)\\notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 396,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Request.cs",
+              "RelativeDocumentMoniker": "Request.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Request.cs",
+              "RelativeToolTip": "Request.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAowJMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T08:14:27.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T08:13:06.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T08:07:33.122Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 66,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 69,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8d46bf59-3c4a-445b-8591-80e6b8147a41",
+        "Display": 0,
+        "X": 562,
+        "Y": 188,
+        "Width": 1218,
+        "Height": 784,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "notes.md",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\notes.md",
+              "RelativeDocumentMoniker": "notes.md",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\notes.md",
+              "RelativeToolTip": "notes.md",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-07T08:08:06.078Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

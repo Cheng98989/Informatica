@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,7 +7,7 @@
     <ProjectGuid>{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Supporto_Utenti__MS_4._1_</RootNamespace>
-    <AssemblyName>Supporto-Utenti-%28MS-4.1%29</AssemblyName>
+    <AssemblyName>p</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

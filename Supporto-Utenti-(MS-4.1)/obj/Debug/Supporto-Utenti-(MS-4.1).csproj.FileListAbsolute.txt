@@ -8,3 +8,13 @@ D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.CoreCompileInputs.cache
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).exe
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.exe.config
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.AssemblyReference.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto_Utenti__MS_4._1_.Form1.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto_Utenti__MS_4._1_.Properties.Resources.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.GenerateResource.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.CoreCompileInputs.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\p.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\p.pdb

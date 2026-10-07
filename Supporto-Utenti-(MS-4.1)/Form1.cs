@@ -12,6 +12,7 @@ namespace Supporto_Utenti__MS_4._1_
 {
     public partial class Form1 : Form
     {
+        IEnumerable<object> format;
         public Form1()
         {
             InitializeComponent();
@@ -22,10 +23,12 @@ namespace Supporto_Utenti__MS_4._1_
                 cboSavDepartment.Items.Add(d);
             }
             cboSavDepartment.SelectedIndex = 0;
-
+            //inizializzazione checkbox
+            chkSavResolved.Checked = false;
+            chkUpdResolved.Checked = false;
 
             // formattazione datagridview
-            format = requests.Select<Request,object>(r => new
+            format = requests.Select(r => new
              {
                  ID = r.Id,
                  EMAIL = r.Email,
@@ -45,7 +48,7 @@ namespace Supporto_Utenti__MS_4._1_
         {
             //preinseriti
         };
-        IEnumerable<object> format;
+     
         private void btnSavSave_Click(object sender, EventArgs e)
         {
             if (
@@ -93,6 +96,48 @@ namespace Supporto_Utenti__MS_4._1_
             updateDataGridView(dgvSav, format.ToList());
         }
 
+        
+        private void btnUpdSearch_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtUpdSearch.Text))
+            {
+                MessageBox.Show("ID mancante");
+                return;
+            }
+
+            var selected = requests.Where(r => r.Id == txtUpdSearch.Text).FirstOrDefault();
+
+            if (selected == null)
+            {
+                MessageBox.Show("ID non trovato");
+                lblUpdId.Text = "---";
+                lblUpdEmail.Text = "---";
+                lblUpdDepartment.Text = "---";
+                lblUpdDescription.Text = "---";
+                lblUpdReqDateTime.Text = "---";
+                lblUpdUrgency.Text = "---";
+                chkUpdResolved.Checked = false;
+                dtpUpdResDate.Value = DateTime.Now;
+                dtpUpdResTime.Value = DateTime.Now;
+                return;
+            }
+
+            lblUpdId.Text = selected.Id;
+            lblUpdEmail.Text = selected.Email;
+            lblUpdDepartment.Text = selected.Department;
+            lblUpdDescription.Text = selected.Description;
+            lblUpdReqDateTime.Text = selected.ReqDate.ToString();
+            lblUpdUrgency.Text = selected.Urgency.ToString();
+            chkUpdResolved.Checked = selected.Resolved;
+            if(selected.Resolved)
+            {
+                dtpUpdResDate.Value = selected.ResDate.Value.Date;
+                dtpUpdResTime.Value = new DateTime() + selected.ResDate.Value.TimeOfDay;
+            }
+
+
+        }
+
         private DateTime mergeDateTime(DateTime date, DateTime time)
         {
             return date.Date + time.TimeOfDay;
@@ -102,9 +147,30 @@ namespace Supporto_Utenti__MS_4._1_
         {
             dgv.DataSource = null;
             dgv.DataSource = list;
-            dgv.Update();
         }
 
+        private void chkSavResolved_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkSavResolved.Checked)
+            {
+                dtpSavResDate.Enabled = true;
+                dtpSavResTime.Enabled = true;
+                return;
+            }
+            dtpSavResDate.Enabled = false;
+            dtpSavResTime.Enabled = false;
+        }
 
+        private void chkUpdResolved_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkUpdResolved.Checked)
+            {
+                dtpUpdResDate.Enabled = true;
+                dtpUpdResTime.Enabled = true;
+                return;
+            }
+            dtpUpdResDate.Enabled = false;
+            dtpUpdResTime.Enabled = false;
+        }
     }
 }

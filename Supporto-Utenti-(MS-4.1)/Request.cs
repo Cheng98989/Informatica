@@ -79,7 +79,7 @@ namespace Supporto_Utenti__MS_4._1_
 
         public DateTime ReqDate
         {
-            get { return _reqDate; }
+            get { return this._reqDate; }
             set
             {
                 if (
@@ -90,7 +90,7 @@ namespace Supporto_Utenti__MS_4._1_
                     || value.TimeOfDay > TimeSpan.FromHours(17)
                     )
                     throw new Exception("Request Date not valide");
-                _reqDate = value;
+                this._reqDate = value;
             }
         }
         #endregion
