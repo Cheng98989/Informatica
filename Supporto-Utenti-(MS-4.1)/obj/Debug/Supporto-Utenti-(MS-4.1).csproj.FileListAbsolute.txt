@@ -1,13 +1,8 @@
-D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\Supporto-Utenti-(MS-4.1).exe.config
-D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\Supporto-Utenti-(MS-4.1).exe
-D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\Supporto-Utenti-(MS-4.1).pdb
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.AssemblyReference.cache
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto_Utenti__MS_4._1_.Form1.resources
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto_Utenti__MS_4._1_.Properties.Resources.resources
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.GenerateResource.cache
 D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.CoreCompileInputs.cache
-D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).exe
-D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).pdb
 C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.exe.config
 C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.exe
 C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.pdb
@@ -18,3 +13,8 @@ C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debu
 C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\Supporto-Utenti-(MS-4.1).csproj.CoreCompileInputs.cache
 C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\p.exe
 C:\Users\hu.23119\Documents\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\p.pdb
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.exe.config
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.exe
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\bin\Debug\p.pdb
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\p.exe
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.1)\obj\Debug\p.pdb

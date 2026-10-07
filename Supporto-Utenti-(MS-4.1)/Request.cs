@@ -105,9 +105,7 @@ namespace Supporto_Utenti__MS_4._1_
             get { return _resDate; }
             set
             {
-                if (value.HasValue
-                    && (value > DateTime.Now
-                    || value < ReqDate))
+                if (value.HasValue && value < ReqDate)
                     throw new Exception("Resolution Date not valide");
                 _resDate = value;
             }
@@ -117,6 +115,8 @@ namespace Supporto_Utenti__MS_4._1_
         #region DESCRIPTION
         public string Description;
         #endregion
+
+        private bool _idReleased = false;
 
         //COSTRUTTORE
         #region CONSTRUCTORs
@@ -152,6 +152,14 @@ namespace Supporto_Utenti__MS_4._1_
 
         // MEDOTI
         #region METHODs
+
+        public TimeSpan? timeToResolve()
+        {
+            if(Resolved)
+                return this.ResDate.Value - this.ReqDate;
+            return null;
+        }
+
         #endregion
     }
 }
