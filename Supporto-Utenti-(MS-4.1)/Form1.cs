@@ -54,7 +54,7 @@ namespace Supporto_Utenti__MS_4._1_
         //LIST
         List<Request> requests = new List<Request>()
         {
-            //preinseriti
+            #region preinseriti
             new Request(
                 "A1001",
                 "mario.rossi@email.it",
@@ -71,7 +71,7 @@ namespace Supporto_Utenti__MS_4._1_
                 "amministrazione",
                 40,
                 new DateTime(2026, 9, 22, 10, 0, 0),
-                new DateTime(2026, 9, 23, 11, 20, 0),
+                new DateTime(2026, 9, 22, 15, 20, 0),
                 "Errore nella registrazione di una fattura."
             ),
 
@@ -97,26 +97,36 @@ namespace Supporto_Utenti__MS_4._1_
 
             new Request(
                 "A1005",
-                "paolo.gialli@email.it",
+                "mario.rossi@email.it",
                 "amministrazione",
-                20,
-                new DateTime(2026, 9, 25, 15, 10, 0),
+                55,
+                new DateTime(2026, 9, 25, 11, 20, 0),
                 null,
-                "Richiesta di verifica di un documento."
+                "Richiesta di modifica dei dati di fatturazione."
             ),
 
             new Request(
                 "A1006",
-                "chiara.rosa@email.it",
-                "vendita",
-                70,
-                new DateTime(2026, 9, 28, 9, 30, 0),
-                new DateTime(2026, 9, 29, 10, 15, 0),
-                "Problema con un ordine cliente."
+                "paolo.gialli@email.it",
+                "amministrazione",
+                20,
+                new DateTime(2026, 9, 28, 15, 10, 0),
+                new DateTime(2026, 9, 29, 9, 30, 0),
+                "Richiesta di verifica di un documento."
             ),
 
             new Request(
                 "A1007",
+                "chiara.rosa@email.it",
+                "vendita",
+                70,
+                new DateTime(2026, 9, 28, 9, 30, 0),
+                new DateTime(2026, 9, 28, 12, 15, 0),
+                "Problema con un ordine cliente."
+            ),
+
+            new Request(
+                "A1008",
                 "marco.blu@email.it",
                 "produzione",
                 50,
@@ -126,7 +136,17 @@ namespace Supporto_Utenti__MS_4._1_
             ),
 
             new Request(
-                "A1008",
+                "A1009",
+                "laura.bianchi@email.it",
+                "vendita",
+                75,
+                new DateTime(2026, 9, 30, 9, 10, 0),
+                null,
+                "Il cliente segnala un errore nell'ordine."
+            ),
+
+            new Request(
+                "A1010",
                 "simona.verdi@email.it",
                 "amministrazione",
                 85,
@@ -136,7 +156,7 @@ namespace Supporto_Utenti__MS_4._1_
             ),
 
             new Request(
-                "A1009",
+                "A1011",
                 "fabio.rossi@email.it",
                 "vendita",
                 30,
@@ -146,14 +166,95 @@ namespace Supporto_Utenti__MS_4._1_
             ),
 
             new Request(
-                "A1010",
+                "A1012",
+                "mario.rossi@email.it",
+                "vendita",
+                90,
+                new DateTime(2026, 10, 1, 13, 40, 0),
+                new DateTime(2026, 10, 2, 9, 25, 0),
+                "Cliente impossibilitato a completare l'acquisto."
+            ),
+
+            new Request(
+                "A1013",
                 "elena.bianchi@email.it",
                 "produzione",
                 100,
                 new DateTime(2026, 10, 2, 16, 0, 0),
-                new DateTime(2026, 10, 5, 10, 30, 0),
+                null,
                 "Guasto urgente alla linea di produzione."
+            ),
+
+            new Request(
+                "A1014",
+                "luca.verdi@email.it",
+                "vendita",
+                45,
+                new DateTime(2026, 10, 2, 10, 30, 0),
+                null,
+                "Richiesta di aggiornamento sui tempi di consegna."
+            ),
+
+            new Request(
+                "A1015",
+                "anna.neri@email.it",
+                "produzione",
+                88,
+                new DateTime(2026, 10, 5, 8, 20, 0),
+                new DateTime(2026, 10, 5, 12, 50, 0),
+                "Rumore anomalo proveniente da un macchinario."
+            ),
+
+            new Request(
+                "A1016",
+                "paolo.gialli@email.it",
+                "amministrazione",
+                35,
+                new DateTime(2026, 10, 5, 14, 15, 0),
+                null,
+                "Documento fiscale non disponibile nel sistema."
+            ),
+
+            new Request(
+                "A1017",
+                "chiara.rosa@email.it",
+                "vendita",
+                60,
+                new DateTime(2026, 10, 6, 9, 45, 0),
+                null,
+                "Il cliente richiede una modifica all'ordine."
+            ),
+
+            new Request(
+                "A1018",
+                "marco.blu@email.it",
+                "produzione",
+                92,
+                new DateTime(2026, 10, 6, 11, 10, 0),
+                new DateTime(2026, 10, 6, 15, 40, 0),
+                "Blocco temporaneo del sistema di controllo."
+            ),
+
+            new Request(
+                "A1019",
+                "simona.verdi@email.it",
+                "amministrazione",
+                25,
+                new DateTime(2026, 10, 7, 10, 20, 0),
+                null,
+                "Richiesta di controllo di una nota spese."
+            ),
+
+            new Request(
+                "A1020",
+                "laura.bianchi@email.it",
+                "amministrazione",
+                65,
+                new DateTime(2026, 10, 7, 15, 30, 0),
+                null,
+                "Errore nei dati presenti nella fattura del cliente."
             )
+            #endregion
         };
      
         private void btnSavSave_Click(object sender, EventArgs e)
@@ -352,12 +453,17 @@ namespace Supporto_Utenti__MS_4._1_
                 MessageBox.Show("Email non inserita");
                 return;
             }
-            var toDel = requests.Where(r => r.Email != txtDelEmail.Text.Trim().ToLower()).ToList();
+
+            string email = txtDelEmail.Text.Trim().ToLower();
+
+            var toDel = requests.Where(r => r.Email == email).ToList();
 
             foreach(var r in toDel)
             {
-                
+                r.Dispose();
+                requests.Remove(r);
             }
+            MessageBox.Show($"removed: {toDel.Count} request/s");
         }
 
         private void btnMat_Click(object sender, EventArgs e)
@@ -373,9 +479,12 @@ namespace Supporto_Utenti__MS_4._1_
                 return;
             }
 
-            var filtered = requests.Where(r => r.Urgency >= u_min && r.Urgency <= u_max);
+            var filtered = requests.Where(r => r.Urgency >= u_min && r.Urgency <= u_max && r.Resolved);
             updateDataGridView(dgvList, filtered.ToList());
-            var sum = filtered.Sum(r => r.timeToResolve().Value.Ticks);
+            var sum_tick = filtered.Sum(r => r.TimeToResolve().Value.Ticks);
+            var sum_timespam = TimeSpan.FromTicks(sum_tick);
+
+            lblMat.Text = $"ticks:{sum_tick}, {sum_timespam.ToString()}";
         }
     }
 }

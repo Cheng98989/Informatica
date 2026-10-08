@@ -15,6 +15,8 @@ namespace Supporto_Utenti__MS_4._1_
         public static List<string> TakenIds => _takenIds.ToList();
 
         //id istanza
+        private bool _disposed = false;
+        public bool Disposed => _disposed;
         private readonly string _id;
 
         public string Id => _id;
@@ -116,8 +118,6 @@ namespace Supporto_Utenti__MS_4._1_
         public string Description;
         #endregion
 
-        private bool _idReleased = false;
-
         //COSTRUTTORE
         #region CONSTRUCTORs
 
@@ -153,7 +153,17 @@ namespace Supporto_Utenti__MS_4._1_
         // MEDOTI
         #region METHODs
 
-        public TimeSpan? timeToResolve()
+        public void Dispose()
+        {
+            if (!this._disposed)
+            {
+                Request._takenIds.Remove(Id);
+                _disposed = true;
+            }
+            
+        }
+
+        public TimeSpan? TimeToResolve()
         {
             if(Resolved)
                 return this.ResDate.Value - this.ReqDate;
