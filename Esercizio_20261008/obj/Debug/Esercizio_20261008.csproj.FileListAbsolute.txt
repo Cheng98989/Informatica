@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\bin\Debug\Esercizio_20261008.exe.config
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\bin\Debug\Esercizio_20261008.exe
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\bin\Debug\Esercizio_20261008.pdb
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\obj\Debug\Esercizio_20261008.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\obj\Debug\Esercizio_20261008.Form1.resources
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\obj\Debug\Esercizio_20261008.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\obj\Debug\Esercizio_20261008.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\obj\Debug\Esercizio_20261008.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\obj\Debug\Esercizio_20261008.exe
+D:\C-Sharp\GitHub\Informatica\Esercizio_20261008\obj\Debug\Esercizio_20261008.pdb
