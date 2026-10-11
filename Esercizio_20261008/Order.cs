@@ -63,5 +63,16 @@ namespace Esercizio_20261008
             Amount = amount;
             Order.TakenIds.Add(i);
         }
+
+        private bool _deleted;
+        public void Dispose()
+        {
+            if (!_deleted) {
+                Order.TakenIds.Remove(this.Id);
+                _deleted = true;
+            }
+                
+            
+        }
     }
 }

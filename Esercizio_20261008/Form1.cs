@@ -263,11 +263,11 @@ namespace Esercizio_20261008
         {
             var sorted = rdoOrdName.Checked
                 ? (rdoOrdAscendent.Checked
-                    ? orders.OrderBy(o => o.Name)
-                    : orders.OrderByDescending(o => o.Name))
+                    ? list.OrderBy(o => o.Name)
+                    : list.OrderByDescending(o => o.Name))
                 : (rdoOrdAscendent.Checked
-                    ? orders.OrderBy(o => o.Data)
-                    : orders.OrderByDescending(o => o.Data));
+                    ? list.OrderBy(o => o.Data)
+                    : list.OrderByDescending(o => o.Data));
 
             var selected = sorted.Select(o => new
             {
@@ -283,6 +283,123 @@ namespace Esercizio_20261008
             dgvViewer.DataSource = selected.ToList();
         }
 
+        private void btnUpdSearch_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtUpdId.Text))
+            {
+                MessageBox.Show("Dati mancanti");
+                return;
+            }
+            if (!int.TryParse(txtUpdId.Text, out int id))
+            {
+                MessageBox.Show("ID e' intero");
+                return;
+            }
+            var order = orders.FirstOrDefault(o => o.Id == id);
+            if (order == null)
+            {
+                MessageBox.Show("Ordine non trovato");
+                return;
+            }
 
+            lblUpdId.Text = order.Id.ToString();
+            txtUpdName.Text = order.Name;
+            txtUpdAddres.Text = order.Address;
+            txtUpdAmount.Text = order.Amount.ToString();
+            txtUpdCost.Text = order.TotalCost.ToString();
+            dtpUpdDate.Value = order.Data;
+
+
+        }
+
+        private void btnUpd_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(lblUpdId.Text)
+                || string.IsNullOrEmpty(txtUpdName.Text)
+                || string.IsNullOrEmpty(txtUpdAddres.Text)
+                || string.IsNullOrEmpty(txtUpdAmount.Text)
+                || string.IsNullOrEmpty(txtUpdCost.Text))
+            {
+                MessageBox.Show("Dati mancanti");
+                return;
+            }
+
+            if (!int.TryParse(lblUpdId.Text, out int id))
+            {
+                MessageBox.Show("ID e' intero");
+                return;
+            }
+
+            if (!int.TryParse(txtUpdAmount.Text, out int amount))
+            {
+                MessageBox.Show("Quantita' e' intero");
+                return;
+            }
+
+            if (!decimal.TryParse(txtUpdCost.Text, out decimal cost))
+            {
+                MessageBox.Show("Costo e' decimale");
+                return;
+            }
+
+            var order = orders.FirstOrDefault(o => o.Id == id);
+            if (order == null)
+            {
+                MessageBox.Show("Ordine non trovato");
+                return;
+            }
+            try
+            {
+                order.Name = txtUpdName.Text;
+                order.Address = txtUpdAddres.Text;
+                order.Amount = amount;
+                order.TotalCost = cost;
+                order.Data = dtpUpdDate.Value;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return;
+            }
+            updateViewer(orders.ToList());
+        }
+
+        private void btnDelView_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtDelName.Text))
+            {
+                MessageBox.Show("Nome mancante");
+                return;
+            }
+
+            updateViewer(orders.Where(o => o.Name == txtDelName.Text).ToList());
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtDelName.Text))
+            {
+                MessageBox.Show("Nome mancante");
+                return;
+            }
+            var toDel = orders.Where(o => o.Name == txtDelName.Text).ToList();
+            if (toDel.Count <= 0)
+            {
+                MessageBox.Show("Nessun ordine associato");
+                return;
+            }
+            if(MessageBox.Show($"Sei sicuro di voler eliminare {toDel.Count} ordini","Conferma",MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                MessageBox.Show("Eliminazione abolita");
+                return;
+            }
+            foreach(var o in toDel)
+            {
+                orders.Remove(o);
+                o.Dispose();
+            }
+            MessageBox.Show("Eliminazione completata");
+            updateViewer(orders.ToList());
+        }
     }
 }
