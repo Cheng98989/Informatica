@@ -401,5 +401,44 @@ namespace Esercizio_20261008
             MessageBox.Show("Eliminazione completata");
             updateViewer(orders.ToList());
         }
+
+        private void btnFil_Click(object sender, EventArgs e)
+        {
+            IEnumerable<Order> filtered = orders;
+            if (chkFilAmount.Checked)
+            {
+                if(!int.TryParse(txtFilMinAmount.Text, out int minAmount))
+                {
+                    MessageBox.Show("Quantità minima e' intero");
+                    return;
+                }
+                if(!int.TryParse(txtFilMaxAmount.Text, out int maxAmount) || maxAmount < minAmount)
+                {
+                    MessageBox.Show("Quantita massima e' intero e maggiore di minima");
+                    return;
+                }
+
+                filtered = filtered.Where(o => o.Amount >= minAmount && o.Amount <= maxAmount);
+            }
+            if (chkFilDate.Checked)
+            {
+                filtered = filtered.Where(o => o.Data >= dtpFilMinDate.Value.Date && o.Data <= dtpFilMaxDate.Value.Date);
+            }
+
+            updateViewer(filtered.ToList());
+
+        }
+
+        private void btnSta_Click(object sender, EventArgs e)
+        {
+            IEnumerable<Order> filtered = orders;
+            if (chkStatDate.Checked)
+            {
+                filtered = filtered.Where(o => o.Data >= dtpStatMinDate.Value.Date && o.Data <= dtpStatMaxDate.Value.Date);
+            }
+            lblStaOrders.Text = filtered.Count().ToString();
+            lblStatAmount.Text = filtered.Sum(o => o.Amount).ToString();
+            lblStatAverage.Text = filtered.Count() <= 0? "-": filtered.Average(o => o.Amount).ToString();
+        }
     }
 }
