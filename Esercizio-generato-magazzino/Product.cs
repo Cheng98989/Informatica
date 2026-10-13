@@ -14,17 +14,16 @@ namespace Esercizio_generato_magazzino
         public string Sku => _sku;
 
         public string descr;
-        private static Dictionary<string, string> _types = new Dictionary<string,string>() { };
-        public static Dictionary<string, string> Type => _types.ToList();
+        private static List<string> _types = new List<string>() { };
+        public static List<string> Type => _types.ToList();
 
         public bool AddType(string newtype)
         {
-            if (Product.Type.Count > 256)
-                return false;
             var t = newtype.Trim().ToLower();
-            if (string.IsNullOrEmpty(t) || Product.Type.ContainsValue(t))
+            if (string.IsNullOrEmpty(t) || Product.Type.Contains(t))
                 return false;
-            var hex = Product.Type.Count.ToString("x2");
+            Product.Type.Add(t);
+            return true;
 
             
         }
