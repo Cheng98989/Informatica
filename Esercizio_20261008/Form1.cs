@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -439,6 +440,7 @@ namespace Esercizio_20261008
             lblStaOrders.Text = filtered.Count().ToString();
             lblStatAmount.Text = filtered.Sum(o => o.Amount).ToString();
             lblStatAverage.Text = filtered.Count() <= 0? "-": filtered.Average(o => o.Amount).ToString();
+            updateViewer(filtered.ToList());
         }
     }
 }
