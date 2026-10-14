@@ -110,11 +110,25 @@ namespace Hoyoverse
             HumanResourcesManager
         }
         #endregion
-        private Dictionary<string, Roles> _projects;
-
-        public void AddProject(string p_name, Roles role)
+        private Dictionary<string, List<Roles>> _projects;
+        public Dictionary<string, List<Roles>> GetProjects()
         {
-            if(_projects.ContainsKey(p_name))
+            return _projects.ToDictionary(p => p.Key, p => p.Value);
         }
+        public bool AddProject(string p_name, List<Roles> r)
+        {
+            if (_projects.ContainsKey(p_name))
+                return false;
+            _projects.Add(p_name, r);
+            return true;
+        }
+
+        public bool RemoveProject(string p_name)
+        {
+            return _projects.Remove(p_name);
+        }
+
+        
+
     }
 }
