@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Esercizio_generato_magazzino.Properties
+namespace Hoyoverse.Properties
 {
 
 

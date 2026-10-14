@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizio-generato-magazzino", "Esercizio-generato-magazzino.csproj", "{13C58715-1CAF-4C4F-A15F-DDAF84E843A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hoyoverse", "Hoyoverse.csproj", "{253EB64A-6A0A-4D53-8464-1FF80CB43221}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{13C58715-1CAF-4C4F-A15F-DDAF84E843A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13C58715-1CAF-4C4F-A15F-DDAF84E843A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13C58715-1CAF-4C4F-A15F-DDAF84E843A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13C58715-1CAF-4C4F-A15F-DDAF84E843A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253EB64A-6A0A-4D53-8464-1FF80CB43221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253EB64A-6A0A-4D53-8464-1FF80CB43221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253EB64A-6A0A-4D53-8464-1FF80CB43221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253EB64A-6A0A-4D53-8464-1FF80CB43221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B11D590B-B175-4811-87F7-65B0CA98F9E1}
+		SolutionGuid = {2DDD4599-B76E-455F-AAB4-FA02CD6730D2}
 	EndGlobalSection
 EndGlobal
