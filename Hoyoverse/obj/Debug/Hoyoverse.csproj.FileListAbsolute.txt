@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\bin\Debug\Hoyoverse.exe.config
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\bin\Debug\Hoyoverse.exe
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\bin\Debug\Hoyoverse.pdb
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\obj\Debug\Hoyoverse.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\obj\Debug\Hoyoverse.Form1.resources
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\obj\Debug\Hoyoverse.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\obj\Debug\Hoyoverse.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\obj\Debug\Hoyoverse.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\obj\Debug\Hoyoverse.exe
+D:\C-Sharp\GitHub\Informatica\Hoyoverse\obj\Debug\Hoyoverse.pdb

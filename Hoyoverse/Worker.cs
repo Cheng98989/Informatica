@@ -9,9 +9,26 @@ namespace Hoyoverse
 {
     public class Worker
     {
+        #region ID
         private string _id;
         public string Id => this._id;
-
+        private static Dictionary<int, int> _hiredEveryYear = new Dictionary<int, int>() { };
+        private string newId(DateTime hireDate)
+        {
+            var year = hireDate.Year;
+            int count = 1;
+            if (!_hiredEveryYear.ContainsKey(year))
+            {
+                _hiredEveryYear.Add(year, count);
+            }
+            else
+            {
+                count = ++_hiredEveryYear[year];
+            }
+            return $"HYV-{year}-{count.ToString("0000")}";
+        } 
+        #endregion
+        #region NAME SURNAME
         private string _name;
 
         public string Name
@@ -35,7 +52,8 @@ namespace Hoyoverse
                 _surname = value.ToLower();
             }
         }
-
+        #endregion
+        #region DEPARTMENTS
         public enum Departents
         {
             GameDevelopment,
@@ -47,9 +65,8 @@ namespace Hoyoverse
         }
 
         public Departents Department;
-
-
-
+        #endregion
+        #region HIREDATE
         private DateTime _hireDate;
 
         public DateTime HireDate
@@ -63,7 +80,8 @@ namespace Hoyoverse
                 _hireDate = v;
             }
         }
-
+        #endregion
+        #region SALARY
         private decimal _salary;
         public decimal Salary
         {
@@ -75,7 +93,8 @@ namespace Hoyoverse
                 _salary = value;
             }
         }
-        #region Roles
+        #endregion
+        #region ROLES
         public enum Roles
         {
             // Development
@@ -110,25 +129,41 @@ namespace Hoyoverse
             HumanResourcesManager
         }
         #endregion
-        private Dictionary<string, List<Roles>> _projects;
-        public Dictionary<string, List<Roles>> GetProjects()
+        #region PROJECTS
+        private Dictionary<string, HashSet<Roles>> _projects;
+        public Dictionary<string, HashSet<Roles>> GetProjects()
         {
             return _projects.ToDictionary(p => p.Key, p => p.Value);
         }
-        public bool AddProject(string p_name, List<Roles> r)
+        public bool AddProject(string p_name, HashSet<Roles> r)
         {
             if (_projects.ContainsKey(p_name))
                 return false;
             _projects.Add(p_name, r);
             return true;
         }
-
         public bool RemoveProject(string p_name)
         {
             return _projects.Remove(p_name);
         }
+        public bool AddRoleToProject(string p_name, Roles r)
+        {
+            return _projects[p_name].Add(r);
+        }
+        public bool RemoveRoleToProject(string p_name, Roles r)
+        {
+            return _projects[p_name].Remove(r);
+        }
+        #endregion
 
-        
-
+        public Worker(DateTime hireDate, string n, string s, Departents d, decimal sal)
+        {
+            HireDate = hireDate;
+            Name = n;
+            Surname = s;
+            Department = d;
+            Salary = sal;
+            _id = newId(hireDate);
+        }
     }
 }
