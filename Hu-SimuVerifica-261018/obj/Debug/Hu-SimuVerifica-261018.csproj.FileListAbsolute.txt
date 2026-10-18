@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\bin\Debug\Hu-SimuVerifica-261018.exe.config
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\bin\Debug\Hu-SimuVerifica-261018.exe
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\bin\Debug\Hu-SimuVerifica-261018.pdb
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\obj\Debug\Hu-SimuVerifica-261018.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\obj\Debug\Hu_SimuVerifica_261018.Form1.resources
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\obj\Debug\Hu_SimuVerifica_261018.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\obj\Debug\Hu-SimuVerifica-261018.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\obj\Debug\Hu-SimuVerifica-261018.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\obj\Debug\Hu-SimuVerifica-261018.exe
+D:\C-Sharp\GitHub\Informatica\Hu-SimuVerifica-261018\obj\Debug\Hu-SimuVerifica-261018.pdb

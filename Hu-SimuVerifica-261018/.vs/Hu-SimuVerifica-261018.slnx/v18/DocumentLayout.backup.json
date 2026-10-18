@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|d:\\c-sharp\\github\\informatica\\hu-simuverifica-261018\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|d:\\c-sharp\\github\\informatica\\hu-simuverifica-261018\\partitatorneo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|solutionrelative:partitatorneo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|d:\\c-sharp\\github\\informatica\\hu-simuverifica-261018\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|d:\\c-sharp\\github\\informatica\\hu-simuverifica-261018\\formfuncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D031643-44BF-4FE2-8397-EDD4CE39E085}|Hu-SimuVerifica-261018.csproj|solutionrelative:formfuncs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 213,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormFuncs.cs",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\FormFuncs.cs",
+              "RelativeDocumentMoniker": "FormFuncs.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\FormFuncs.cs",
+              "RelativeToolTip": "FormFuncs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:51:30.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAqwCgBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:45:28.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartitaTorneo.cs",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\PartitaTorneo.cs",
+              "RelativeDocumentMoniker": "PartitaTorneo.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\PartitaTorneo.cs",
+              "RelativeToolTip": "PartitaTorneo.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwHkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:17:15.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Hu-SimuVerifica-261018\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T09:16:54.192Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 187,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
