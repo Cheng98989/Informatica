@@ -1,0 +1,10 @@
+C:\Users\hu.23119\Desktop\Hu\Hu\bin\Debug\Hu.exe.config
+C:\Users\hu.23119\Desktop\Hu\Hu\bin\Debug\Hu.exe
+C:\Users\hu.23119\Desktop\Hu\Hu\bin\Debug\Hu.pdb
+C:\Users\hu.23119\Desktop\Hu\Hu\obj\Debug\Hu.csproj.AssemblyReference.cache
+C:\Users\hu.23119\Desktop\Hu\Hu\obj\Debug\Hu.Form1.resources
+C:\Users\hu.23119\Desktop\Hu\Hu\obj\Debug\Hu.Properties.Resources.resources
+C:\Users\hu.23119\Desktop\Hu\Hu\obj\Debug\Hu.csproj.GenerateResource.cache
+C:\Users\hu.23119\Desktop\Hu\Hu\obj\Debug\Hu.csproj.CoreCompileInputs.cache
+C:\Users\hu.23119\Desktop\Hu\Hu\obj\Debug\Hu.exe
+C:\Users\hu.23119\Desktop\Hu\Hu\obj\Debug\Hu.pdb

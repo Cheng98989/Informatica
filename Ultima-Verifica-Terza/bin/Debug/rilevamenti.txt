@@ -1,0 +1,24 @@
+1
+marco ferrari
+ferrari
+250
+soft
+10
+50
+400
+5
+alberto redbull
+redbull
+400
+hard
+9
+12
+200
+10
+antonio antonini
+antonini
+112
+soft
+20
+34
+210
