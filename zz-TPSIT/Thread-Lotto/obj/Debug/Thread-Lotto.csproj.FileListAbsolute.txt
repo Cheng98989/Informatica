@@ -1,0 +1,11 @@
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\bin\Debug\Thread-Lotto.exe.config
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\bin\Debug\Thread-Lotto.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\bin\Debug\Thread-Lotto.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread-Lotto.csproj.AssemblyReference.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread_Lotto.Form1.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread_Lotto.Properties.Resources.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread-Lotto.csproj.GenerateResource.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread-Lotto.csproj.CoreCompileInputs.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread-Lotto.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread-Lotto.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Thread-Lotto\obj\Debug\Thread-Lotto.exe.config
