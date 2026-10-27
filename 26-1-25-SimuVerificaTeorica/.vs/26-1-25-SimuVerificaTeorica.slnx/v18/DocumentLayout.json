@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\noleggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|solutionrelative:noleggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|d:\\c-sharp\\github\\informatica\\26-1-25-simuverificateorica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|d:\\c-sharp\\github\\informatica\\26-1-25-simuverificateorica\\noleggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66EE91C4-90A1-4E2F-9AD7-917D4E44A0D7}|26-1-25-SimuVerificaTeorica.csproj|solutionrelative:noleggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 396,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -62,26 +62,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAcwMIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-25T16:25:59.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Noleggio.cs",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\Noleggio.cs",
               "RelativeDocumentMoniker": "Noleggio.cs",
               "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\26-1-25-SimuVerificaTeorica\\Noleggio.cs",
               "RelativeToolTip": "Noleggio.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwHYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-25T12:15:40.882Z",
               "EditorCaption": ""

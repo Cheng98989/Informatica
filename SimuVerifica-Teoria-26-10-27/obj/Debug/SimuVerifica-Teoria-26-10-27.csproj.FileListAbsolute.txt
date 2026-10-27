@@ -1,0 +1,4 @@
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-Teoria-26-10-27\obj\Debug\SimuVerifica-Teoria-26-10-27.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-Teoria-26-10-27\obj\Debug\SimuVerifica_Teoria_26_10_27.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-Teoria-26-10-27\obj\Debug\SimuVerifica-Teoria-26-10-27.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-Teoria-26-10-27\obj\Debug\SimuVerifica-Teoria-26-10-27.csproj.CoreCompileInputs.cache

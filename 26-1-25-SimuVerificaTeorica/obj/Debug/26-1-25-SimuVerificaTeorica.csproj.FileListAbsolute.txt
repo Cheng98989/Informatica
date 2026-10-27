@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\bin\Debug\26-1-25-SimuVerificaTeorica.exe.config
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\bin\Debug\26-1-25-SimuVerificaTeorica.exe
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\bin\Debug\26-1-25-SimuVerificaTeorica.pdb
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\obj\Debug\26-1-25-SimuVerificaTeorica.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\obj\Debug\_26_1_25_SimuVerificaTeorica.Form1.resources
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\obj\Debug\_26_1_25_SimuVerificaTeorica.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\obj\Debug\26-1-25-SimuVerificaTeorica.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\obj\Debug\26-1-25-SimuVerificaTeorica.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\obj\Debug\26-1-25-SimuVerificaTeorica.exe
+D:\C-Sharp\GitHub\Informatica\26-1-25-SimuVerificaTeorica\obj\Debug\26-1-25-SimuVerificaTeorica.pdb
