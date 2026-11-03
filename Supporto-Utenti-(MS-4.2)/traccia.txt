@@ -1,0 +1,32 @@
+Gestione lotti di produzione e controllo qualità  (MS-4.2)
+
+
+Realizzare un software che consenta la gestione di un archivio di "stabilimenti" di produzione, "prodotti" agroalimentari e "lotti" di prodotti immessi sul mercato dagli stabilimenti.
+
+Gli "stabilimenti" sono caratterizzati da: un identificativo alfanumerico univoco; la ragione sociale (max 50 caratteri) , il comune (obbligatorio), la categoria di prodotti che possono fornire (a scelta tra “ortofrutta”, “latticini”, “carni”, “conserve”); la capienza massima giornaliera (espressa in kg di prodotto trasformabile, intero compreso tra 100 e 1000); un insieme di certificazioni possedute (una lista di sigle alfanumeriche. ad esempio “ISO22000”, “BRC”, “IFS”, “BIO”, eventualmente vuota).
+
+Ogni "prodotto" che gli stabilimenti possono lavorare è identificato da un "codice prodotto" alfanumerico univoco (di 10 caratteri) e descritto da: nome prodotto (obbligatorio),  categoria a cui appartiene (a scelta tra “ortofrutta”, “latticini”, “carni”, “conserve”), la certificazione necessaria (es. "BIO", non obbligatorio).
+
+Ad ogni "lotto" di produzione (cioè una partita omogenea prodotta in una certa data) vengono associati: un codice lotto alfanumerico univoco (sei caratteri); il "prodotto" di base contenuto nel lotto; lo "stabilimento" che ha effettuato la produzione; la data di produzione; la data di scadenza (che non può essere anteriore alla data di produzione); la quantità in kg (tra 100 e 3000); il risultato  dell'"analisi sanitaria" alla data di produzione (numero intero tra 10 e 100 ), un esito del controllo qualità (che può essere “approvato”, “respinto” o “rischio”, calcolato sulla base dei risultati dell'analisi sanitaria e della data scadenza, con questa logica:
+- fino a 10 giorni dalla scadenza, se risultato >=60 "approvato";
+- a partire da 10 giorni dalla scadenza si calcola un valore livelloAttuale = (analisi-((10-numero di giorni alla scadenza)*3))
+    - se  livelloAttuale > 80 allora "approvato"
+    - se compreso tra 60 e 79 "rischio"
+    - se minore di 60 "respinto"
+
+Nota: la categoria di prodotti dello stabilimento deve essere compatibile con il tipo di prodotto. Ad esempio, un lotto di prodotti a base di "latticini" può essere associato solo ad uno stabilimento la cui categoria di categoria “latticini”. Inoltre, se il prodotto lo richiedesse, lo stabilimento dovrebbe obbligatoriamente possedere la certificazione richiesta.
+
+I lotti possono essere destinati al mercato estero ed in tal caso possono avere soglie minime e di rischio differenti.
+Esistono quindi i "lotti esteri" che, rispetto a quelli standard, contengono: nome della nazione di destinazione (obbligatorio), soglia "rischio" (intero compreso tra 55 e 75), soglia approvato (intero compreso tra 56 e 76, maggiore della soglia rischio)
+Nota: ovviamente, per i lotti esteri è necessario calcolare il "controllo qualità" sulla base delle specifiche soglie del paese verso il quale è indirizzato.
+
+Il programma deve consentire:
+
+- Inserire stabilimenti, prodotti, lotti di produzione (nazionali ed esteri)
+- Visualizzare l’elenco dei lotti "nazionali" ancora in commercio (con data di scadenza non anteriore alla data odierna), mostrando per ciascuno il nome del prodotto, lo stabilimento, la quantità e l’esito complessivo (“approvato”, “respinto” o “in attesa”). L’ordinamento può essere scelto dall’utente tra data di scadenza e nome dello stabilimento.
+- Modificare dell'"analisi sanitaria" dato l’identificativo di un lotto.
+- Eliminare tutti i lotti "esteri" con controllo qualità "rischio" o "respinto".
+- Dato uno stabilimento, determinare il nome del prodotto che ha generato il maggior numero di lotti con esito “respinto”.
+- Dato una categoria di prodotto tra le quattro previste, un intervallo di tempo (data iniziale e finale) ed una soglia in kg, calcolare quale stabilimento sia in grado di produrre nell'intervallo dato almeno la quantità di prodotto indicato per la categoria scelta.
+- Dato un comune, visualizzare l’elenco degli stabilimenti situati in quel comune che hanno almeno un lotto approvato e che possiedono una certificazione scelta dall'utente, ordinati per quantità totale prodotta (in kg) decrescente.
+- Dato una categoria di prodotto (ad esempio “latticini”), calcolare la percentuale media di lotti approvati sul totale dei lotti di quella categoria, limitatamente agli stabilimenti che possiedono la certificazione "ISO22000".
