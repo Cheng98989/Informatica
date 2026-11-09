@@ -38,8 +38,8 @@ namespace Supporto_Utenti__MS_4._2_
             }
         }
 
-        private HashSet<FoodCategories> _producedCategories = new HashSet<FoodCategories>() { };
-        public HashSet<FoodCategories> ProducedCategories => _producedCategories;
+        private HashSet<FoodCategory> _producedCategories = new HashSet<FoodCategory>() { };
+        public HashSet<FoodCategory> ProducedCategories => _producedCategories;
         private int _maxCapacity;
         public int MaxCapacity
         {

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.1)\\notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:notes.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47F7AEDE-AD8F-4451-B817-29C217EA0C8B}|Supporto-Utenti-(MS-4.1).csproj|D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -95,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAMEBAAAAAAAAAAAYwMoBAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAMcBAAAAAAAAAAAYwMoBAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T19:18:53.84Z",
               "EditorCaption": ""
@@ -153,7 +153,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "notes.md",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.1)\\notes.md",
               "RelativeDocumentMoniker": "notes.md",

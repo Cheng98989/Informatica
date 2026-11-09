@@ -16,9 +16,11 @@ Ad ogni "lotto" di produzione (cioè una partita omogenea prodotta in una certa 
 
 Nota: la categoria di prodotti dello stabilimento deve essere compatibile con il tipo di prodotto. Ad esempio, un lotto di prodotti a base di "latticini" può essere associato solo ad uno stabilimento la cui categoria di categoria “latticini”. Inoltre, se il prodotto lo richiedesse, lo stabilimento dovrebbe obbligatoriamente possedere la certificazione richiesta.
 
+//no
 I lotti possono essere destinati al mercato estero ed in tal caso possono avere soglie minime e di rischio differenti.
 Esistono quindi i "lotti esteri" che, rispetto a quelli standard, contengono: nome della nazione di destinazione (obbligatorio), soglia "rischio" (intero compreso tra 55 e 75), soglia approvato (intero compreso tra 56 e 76, maggiore della soglia rischio)
 Nota: ovviamente, per i lotti esteri è necessario calcolare il "controllo qualità" sulla base delle specifiche soglie del paese verso il quale è indirizzato.
+//
 
 Il programma deve consentire:
 

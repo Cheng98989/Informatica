@@ -29,8 +29,8 @@ namespace Supporto_Utenti__MS_4._2_
         #region Category/ies
         
 
-        private FoodCategories _category;
-        public FoodCategories Category
+        private FoodCategory _category;
+        public FoodCategory Category
         {
             get { return _category; }
             set { _category = value;}

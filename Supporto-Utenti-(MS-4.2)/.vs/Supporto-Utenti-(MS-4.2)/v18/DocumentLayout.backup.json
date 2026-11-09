@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.2)\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.2)\\foodcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:foodcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.2)\\traccia.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:traccia.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.2)\\certifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\certifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:certifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.2)\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.2)\\admitedcertifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:admitedcertifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|d:\\c-sharp\\github\\informatica\\supporto-utenti-(ms-4.2)\\foodcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:foodcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\traccia.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:traccia.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 396,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Certifications.cs",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Certifications.cs",
               "RelativeDocumentMoniker": "Certifications.cs",
               "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Certifications.cs",
               "RelativeToolTip": "Certifications.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T17:06:54.112Z",
               "IsPinned": true,
@@ -52,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Factory.cs",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Factory.cs",
               "RelativeDocumentMoniker": "Factory.cs",
               "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Factory.cs",
               "RelativeToolTip": "Factory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T20:41:21.471Z",
               "IsPinned": true,
@@ -67,27 +71,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FoodCategories.cs",
-              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\FoodCategories.cs",
-              "RelativeDocumentMoniker": "FoodCategories.cs",
-              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\FoodCategories.cs",
-              "RelativeToolTip": "FoodCategories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "AdmitedCertifications.cs",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\AdmitedCertifications.cs",
+              "RelativeDocumentMoniker": "AdmitedCertifications.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\AdmitedCertifications.cs",
+              "RelativeToolTip": "AdmitedCertifications.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T20:52:59.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "traccia.txt",
-              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\traccia.txt",
-              "RelativeDocumentMoniker": "traccia.txt",
-              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\traccia.txt",
-              "RelativeToolTip": "traccia.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAADjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-11-03T20:29:25.408Z",
+              "WhenOpened": "2026-11-09T20:41:22.994Z",
               "EditorCaption": ""
             },
             {
@@ -117,6 +108,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "traccia.txt",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\traccia.txt",
+              "RelativeDocumentMoniker": "traccia.txt",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\traccia.txt",
+              "RelativeToolTip": "traccia.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-11-03T20:29:25.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodCategory.cs",
+              "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\FoodCategory.cs",
+              "RelativeDocumentMoniker": "FoodCategory.cs",
+              "ToolTip": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\FoodCategory.cs",
+              "RelativeToolTip": "FoodCategory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T20:52:59.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Prodotto.cs",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Prodotto.cs",
               "RelativeDocumentMoniker": "Prodotto.cs",
@@ -129,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "D:\\C-Sharp\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

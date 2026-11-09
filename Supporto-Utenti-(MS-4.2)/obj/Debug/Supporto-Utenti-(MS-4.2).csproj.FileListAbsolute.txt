@@ -1,0 +1,4 @@
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.2)\obj\Debug\Supporto-Utenti-(MS-4.2).csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.2)\obj\Debug\Supporto_Utenti__MS_4._2_.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.2)\obj\Debug\Supporto-Utenti-(MS-4.2).csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\Supporto-Utenti-(MS-4.2)\obj\Debug\Supporto-Utenti-(MS-4.2).csproj.CoreCompileInputs.cache
