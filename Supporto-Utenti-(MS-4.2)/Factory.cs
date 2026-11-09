@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Supporto_Utenti__MS_4._2_
 {
@@ -51,7 +53,25 @@ namespace Supporto_Utenti__MS_4._2_
                 _maxCapacity = value;
             }
         }
-        private HashSet<Certifications> _ownedCertifications= new HashSet<Certifications>() { };
-        public HashSet<Certifications> OwnedCertifications => _ownedCertifications;
+        
+        public Factory(string id, string name, string town)
+        {
+            if (string.IsNullOrEmpty(id) || id.Length != 6)
+                throw new Exception("Factory's id is not valid");
+            if (Factory._takenIds.Contains(id))
+                throw new Exception("Factory's id is already taken");
+            _id = id;
+            Name = name;
+            Town = town;
+            Factory._takenIds.Add(town);
+        }
+
+        private Certificates
+
+        private HashSet<FoodCategories> _producedCategories = new HashSet<FoodCategories>() { };
+        public List<FoodCategories> GetFoodCategories() => _producedCategories.ToList();
+        public void ClearFoodCategories() => _producedCategories = new HashSet<FoodCategories>();
+        public bool AddFoodCategory(FoodCategories f) => _producedCategories.Add(f);
+        public bool RemoveFoodCategorY(FoodCategories f) => _producedCategories.Remove(f);
     }
 }

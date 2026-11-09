@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.2)\\certifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:certifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.2)\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.2)\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.2)\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\supporto-utenti-(ms-4.2)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{15566E27-EFCB-49E7-A29C-7D8B64F271EA}|Supporto-Utenti-(MS-4.2).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -39,14 +55,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Progettazione]",
+              "Title": "Certifications.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Certifications.cs",
+              "RelativeDocumentMoniker": "Certifications.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Certifications.cs",
+              "RelativeToolTip": "Certifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T09:46:00.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Batch.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Batch.cs",
+              "RelativeDocumentMoniker": "Batch.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Batch.cs",
+              "RelativeToolTip": "Batch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T09:46:00.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T09:46:00.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Factory.cs",
+              "RelativeDocumentMoniker": "Factory.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Factory.cs",
+              "RelativeToolTip": "Factory.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowEMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T09:46:00.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\Supporto-Utenti-(MS-4.2)\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T12:25:52.434Z",
-              "EditorCaption": " [Progettazione]"
+              "EditorCaption": " [Design]"
             }
           ]
         },

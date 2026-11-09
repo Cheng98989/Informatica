@@ -46,7 +46,7 @@ namespace Supporto_Utenti__MS_4._2_
         }
         #endregion
 
-        public Product(string id, Product.Categories category, Certifications certificate)
+        public Product(string id, FoodCategories category, Certifications certificate)
         {
             var i = id.Trim();
             if (string.IsNullOrEmpty(i) || i.Length != 10 || Product._takenIds.Contains(i))

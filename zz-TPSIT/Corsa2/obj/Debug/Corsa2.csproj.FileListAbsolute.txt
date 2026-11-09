@@ -1,0 +1,11 @@
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\bin\Debug\Corsa2.exe.config
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\bin\Debug\Corsa2.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\bin\Debug\Corsa2.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.csproj.AssemblyReference.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.Form1.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.Properties.Resources.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.csproj.GenerateResource.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.csproj.CoreCompileInputs.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.exe.config

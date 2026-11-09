@@ -1,0 +1,11 @@
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\bin\Debug\CorsaAuto.exe.config
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\bin\Debug\CorsaAuto.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\bin\Debug\CorsaAuto.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.csproj.AssemblyReference.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.Auto.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.Properties.Resources.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.csproj.GenerateResource.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.csproj.CoreCompileInputs.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\CorsaAuto\obj\Debug\CorsaAuto.exe.config

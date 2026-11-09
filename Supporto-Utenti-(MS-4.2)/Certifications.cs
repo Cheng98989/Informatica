@@ -9,24 +9,25 @@ namespace Supporto_Utenti__MS_4._2_
 {
     public class Certifications
     {
-        #region Instance CRUD
-        private HashSet<string> _certifications = new HashSet<string>() { };
+        private readonly HashSet<string> _certifications = new HashSet<string>();
         public HashSet<string> All => _certifications.ToHashSet();
+        public List<string> GetCertificates() => _certifications.ToList();
         public bool Add(string c)
         {
             if (string.IsNullOrEmpty(c))
                 throw new Exception("Not admited certification");
-            return _certifications.Add(_c);
+            return _certifications.Add(c);
         }
-        public bool RemoveCertification(string c)
-        {
-            return _certifications.Remove(c);
-        }
-        public void ClearCertification()
-        {
-            _certifications.Clear();
-        }
-        #endregion
+        public bool AddCertificate(string c) => Add(c);
+        public bool RemoveCertification(string c) => _certifications.Remove(c);
+        public bool RemoveCertificate(string c) => RemoveCertification(c);
+        public void ClearCertification() => _certifications.Clear();
+        public void ClearCerticate(string c) => ClearCertification();
+        public int Count() => _certifications.Count;
     }
 
+    public class Certificates : Certifications
+    {
+    }
+    }
 }
