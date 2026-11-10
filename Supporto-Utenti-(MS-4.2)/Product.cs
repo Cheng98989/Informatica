@@ -9,7 +9,6 @@ namespace Supporto_Utenti__MS_4._2_
 {
     public class Product
     {
-        #region ID
         private static List<string> _takenIds = new List<string>() { };
         private string _id;
         public string Id => _id;
@@ -20,41 +19,24 @@ namespace Supporto_Utenti__MS_4._2_
             set
             {
                 value = value.Trim().ToLower();
-                if (string.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value) || value.Length > 50)
                     throw new Exception("Product's name is null or empty");
                 _name = value;
             }
         }
-        #endregion
-        #region Category/ies
-        
+        public FoodCategory Category { get; set; }
 
-        private FoodCategory _category;
-        public FoodCategory Category
+        private string _certification;
+        public string Certification
         {
-            get { return _category; }
-            set { _category = value;}
-        }
-        #endregion
-        #region Certificate
-
-        private Certifications? _certificate;
-        public Certifications? Certificate
-        {
-            get { return _certificate; }
-            set { _certificate = value; }
-        }
-        #endregion
-
-        public Product(string id, FoodCategories category, Certifications certificate)
-        {
-            var i = id.Trim();
-            if (string.IsNullOrEmpty(i) || i.Length != 10 || Product._takenIds.Contains(i))
-                throw new Exception("Product's ID must be 10 chars long");
-            _id = i;
-            Category = category;
-            Certificate = certificate;
-            Product._takenIds.Add(i);
+            get { return _certification; }
+            set
+            {
+                var c = value.Trim().ToUpper();
+                if (string.IsNullOrEmpty(c))
+                    throw new Exception("Not valid certification");
+                _certification = c;
+            }
         }
     }
 }

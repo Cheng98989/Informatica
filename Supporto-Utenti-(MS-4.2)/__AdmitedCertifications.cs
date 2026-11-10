@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Supporto_Utenti__MS_4._2_
 {
-    public static class AdmitedCertifications
+    public class AdmitedCertification
     {
         #region Static CRUD
         private static HashSet<string> _admitedCertifications = new HashSet<string>()
@@ -32,6 +32,8 @@ namespace Supporto_Utenti__MS_4._2_
             _admitedCertifications.Clear();
         }
         #endregion
+
+        private 
     }
 
 }
