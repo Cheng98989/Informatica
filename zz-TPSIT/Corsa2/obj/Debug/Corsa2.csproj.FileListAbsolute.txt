@@ -9,3 +9,13 @@ C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.
 C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.exe
 C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.pdb
 C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.exe.config
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\bin\Debug\Corsa2.exe.config
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\bin\Debug\Corsa2.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\bin\Debug\Corsa2.pdb
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.Form1.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa2\obj\Debug\Corsa2.pdb

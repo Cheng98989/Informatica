@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\bin\Debug\Es-pre-verifica.exe.config
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\bin\Debug\Es-pre-verifica.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\bin\Debug\Es-pre-verifica.pdb
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\obj\Debug\Es-pre-verifica.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\obj\Debug\Es_pre_verifica.Form1.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\obj\Debug\Es_pre_verifica.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\obj\Debug\Es-pre-verifica.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\obj\Debug\Es-pre-verifica.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\obj\Debug\Es-pre-verifica.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Es-pre-verifica\obj\Debug\Es-pre-verifica.pdb
