@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\bin\Debug\DownloadsRace.exe.config
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\bin\Debug\DownloadsRace.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\bin\Debug\DownloadsRace.pdb
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\obj\Debug\DownloadsRace.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\obj\Debug\DownloadsRace.Form1.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\obj\Debug\DownloadsRace.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\obj\Debug\DownloadsRace.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\obj\Debug\DownloadsRace.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\obj\Debug\DownloadsRace.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\DownloadsRace\obj\Debug\DownloadsRace.pdb

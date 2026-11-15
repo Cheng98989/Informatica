@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\bin\Debug\Corsa.exe.config
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\bin\Debug\Corsa.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\bin\Debug\Corsa.pdb
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\obj\Debug\Corsa.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\obj\Debug\Corsa.Form1.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\obj\Debug\Corsa.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\obj\Debug\Corsa.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\obj\Debug\Corsa.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\obj\Debug\Corsa.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\Corsa\obj\Debug\Corsa.pdb

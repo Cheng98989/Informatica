@@ -45,15 +45,29 @@ namespace Es_pre_verifica
 
         }
 
-        private void ServizioSportello(Sportello s, ref int countCliente)
+        private void ServizioSportello(Sportello s, ref int countCliente, string[] clienti, ListBox l)
         {
             Random rnd = new Random();
-            int time = rnd.Next(1000, 3001);
-            Invoke(new Action(() =>
+            while(countCliente < clienti.Length)
             {
-                s.label.Text = Enum.GetName(typeof(Stato), Stato.IN_SERVIZIO);
+                Invoke(new Action(() =>
+                {
+                    int index = countCliente;
+                    s.label.Text = Enum.GetName(typeof(Stato), Stato.IN_SERVIZIO);
+                    l.Items.Add($"{clienti[]}");
+                            }
+                            ));
+                int time = rnd.Next(1000, 3001);
+                Thread.Sleep(time);
+                Invoke(new Action(() =>
+                {
+                    s.label.Text = Enum.GetName(typeof(Stato), Stato.LIBERO);
+                }
+                ));
             }
-            ));
+            
+
+
         }
 
         private string[] IstanziaClienti(int numero)
