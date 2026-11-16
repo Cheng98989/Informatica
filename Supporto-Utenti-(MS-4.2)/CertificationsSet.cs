@@ -31,7 +31,10 @@ namespace Supporto_Utenti__MS_4._2_
         {
             return string.Join(" - ", _set);
         }
-
+        public bool CanProduce(Product p)
+        {
+            return p.Certification == null || _set.Contains(p.Certification); 
+        }
 
     }
 }

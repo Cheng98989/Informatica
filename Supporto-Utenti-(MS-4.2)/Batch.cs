@@ -21,6 +21,10 @@ namespace Supporto_Utenti__MS_4._2_
             {
                 if (value == null)
                     throw new Exception("Product is null");
+                if (!_factory.ProducedCategories.Contains(value.Category))
+                    throw new Exception("Factory can't produce this product category");
+                if (!_factory.Certifications.CanProduce(value))
+                    throw new Exception("Factory doesn't have requirements to produce the product");
                 _product = value;
             }
         }
@@ -32,6 +36,10 @@ namespace Supporto_Utenti__MS_4._2_
             {
                 if (value == null || value.MaxCapacity < this._quantity)
                     throw new Exception("Batch quantity is bigger than the per day production of the factory");
+                if (!value.ProducedCategories.Contains(_product.Category))
+                    throw new Exception("Factory can't produce this product category");
+                if (!value.Certifications.CanProduce(_product))
+                    throw new Exception("Factory doesn't have requirements to produce the product");
                 _factory = value;
             }
         }
@@ -99,17 +107,24 @@ namespace Supporto_Utenti__MS_4._2_
         {
             get
             {
-                TimeSpan dif = ExpiringDate.Date - DateTime.Today;
-                if (dif > TimeSpan.FromDays(10))
+                int dif = (ExpiringDate.Date - DateTime.Today).Days;
+                if (dif > 10)
                 {
                     if (_healthScore >= 60) return QualityRanks.APPROVATO;
                     return QualityRanks.RESPINTO;
                 }
-                switch (dif)
+                    
+                if( dif > 1)
                 {
-                    case (dif <= TimeSpan.MinValue):
-                        break;
+                    var liv = _healthScore - (10 - dif) * 3;
+                    if (liv >= 80)
+                        return QualityRanks.APPROVATO;
+                    if (liv < 60)
+                        return QualityRanks.RESPINTO;
+                    return QualityRanks.RISCHIO;
                 }
+
+                return QualityRanks.RESPINTO;
             }
         }
 
@@ -133,6 +148,11 @@ namespace Supporto_Utenti__MS_4._2_
             if (f == null || f.MaxCapacity > quantity)
                 throw new Exception("Batch quantity is bigger than the per day production of the factory");
 
+            //conrtollo incrociato stabilitmento e prdotto categorie e certificazioni
+            if (!f.ProducedCategories.Contains(p.Category))
+                throw new Exception("Factory can't produce this product category");
+            if (!f.Certifications.CanProduce(p))
+                throw new Exception("Factory doesn't have requirements to produce the product");
 
 
             _manufactoringDate = manufactoring;

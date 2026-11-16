@@ -33,8 +33,6 @@ namespace Supporto_Utenti__MS_4._2_
             set
             {
                 var c = value.Trim().ToUpper();
-                if (string.IsNullOrEmpty(c))
-                    throw new Exception("Not valid certification");
                 _certification = c;
             }
         }
