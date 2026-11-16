@@ -19,3 +19,13 @@ C:\Users\cheng\Downloads\ProcessManager\ProcessManager\obj\Debug\ProcessManager.
 C:\Users\cheng\Downloads\ProcessManager\ProcessManager\obj\Debug\ProcessManager.csproj.CoreCompileInputs.cache
 C:\Users\cheng\Downloads\ProcessManager\ProcessManager\obj\Debug\ProcessManager.exe
 C:\Users\cheng\Downloads\ProcessManager\ProcessManager\obj\Debug\ProcessManager.pdb
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\bin\Debug\ProcessManager.exe.config
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\bin\Debug\ProcessManager.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\bin\Debug\ProcessManager.pdb
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\obj\Debug\ProcessManager.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\obj\Debug\ProcessManager.Form1.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\obj\Debug\ProcessManager.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\obj\Debug\ProcessManager.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\obj\Debug\ProcessManager.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\obj\Debug\ProcessManager.exe
+D:\C-Sharp\GitHub\Informatica\zz-TPSIT\ProcessManager\obj\Debug\ProcessManager.pdb
