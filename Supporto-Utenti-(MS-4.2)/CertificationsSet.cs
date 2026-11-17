@@ -13,9 +13,12 @@ namespace Supporto_Utenti__MS_4._2_
         public List<string> All => _set.ToList();
         public CertificationsSet(string[] certificazioni)
         {
+            if (certificazioni == null)
+                return;
             foreach(string c in certificazioni)
             {
-                this.Add(c);
+                if(c != null)
+                    this.Add(c);
             }
         }
         public bool Add(string c)
@@ -26,10 +29,14 @@ namespace Supporto_Utenti__MS_4._2_
             return _set.Add(_c);
         }
         public bool Remove(string c) => _set.Remove(c);
-        public void Clear() => _set.Clear();
+        public void Clear()
+        {
+            _set.Clear();
+            _set = new HashSet<string>();
+        }
         public override string ToString()
         {
-            return string.Join(" - ", _set);
+            return string.Join(", ", _set);
         }
         public bool CanProduce(Product p)
         {
