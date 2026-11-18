@@ -14,7 +14,7 @@ namespace Supporto_Utenti__MS_4._2_
     public partial class Form1 : Form
     {
         List<Factory> factories = new List<Factory>() { };
-
+        List<Product> products = new List<Product>() { };
 
 
         public Form1()
@@ -88,10 +88,6 @@ namespace Supporto_Utenti__MS_4._2_
                 ? ""
                 : string.Join(", ", sel.Certifications);
         }
-
-
-        #endregion
-
         private void btnFactEditFoodCateAndCertificationsSav_Click(object sender, EventArgs e)
         {
 
@@ -108,20 +104,20 @@ namespace Supporto_Utenti__MS_4._2_
                 return;
             }
 
-            
-                var certifications = txtFactEditCertifications.Text.Split(',');
-                for (int i = 0; i < certifications.Length; i++)
-                {
-                    certifications[i] = certifications[i].Trim();
 
-                }
-                var certValidi = new List<string>();
-                for (int i = 0; i < certifications.Length; i++)
-                {
-                    if (string.IsNullOrEmpty(certifications[i]))
-                        continue;
-                    certValidi.Add(certifications[i]);
-                }
+            var certifications = txtFactEditCertifications.Text.Split(',');
+            for (int i = 0; i < certifications.Length; i++)
+            {
+                certifications[i] = certifications[i].Trim();
+
+            }
+            var certValidi = new List<string>();
+            for (int i = 0; i < certifications.Length; i++)
+            {
+                if (string.IsNullOrEmpty(certifications[i]))
+                    continue;
+                certValidi.Add(certifications[i]);
+            }
 
             try
             {
@@ -132,23 +128,104 @@ namespace Supporto_Utenti__MS_4._2_
                 }
 
                 List<FoodCategory> foodOk = new List<FoodCategory>();
-                foreach(var i in foodStrings)
+                foreach (var i in foodStrings)
                 {
                     if (string.IsNullOrEmpty(i))
                         foodOk.Add(new FoodCategory(i));
                 }
-            
+
 
                 sel.SetCertifications(certValidi);
                 sel.SetProducedCategories(foodOk);
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
                 return;
             }
-            
+
+        }
+        #endregion
+
+        #region Prodotto
+        private void btnProdSave_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtProdSavId.Text) ||
+                string.IsNullOrEmpty(txtProdSavName.Text) ||
+                string.IsNullOrEmpty(cboProdSavCategoria.Text))
+            {
+                MessageBox.Show("Dati mancanti");
+                return;
+            }
+
+            Product p;
+            try
+            {
+                p = new Product(txtProdSavId.Text, txtProdSavName.Text, new FoodCategory(cboProdSavCategoria.Text));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return;
+            }
+
+            products.Add(p);
+            MessageBox.Show("Added");
+        }
+        #endregion
+
+        private void btnProdEditSearch_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtProdEditId.Text))
+            {
+                MessageBox.Show("Inserire id");
+                return;
+            }
+
+            var sel = products.FirstOrDefault(f => f.Id == txtProdEditId.Text);
+            if (sel == null)
+            {
+                MessageBox.Show("Non trovato");
+                return;
+            }
+            txtProdEditCertifications.Text = sel.Certification;
+        }
+
+        private void btnProdEditApply_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtProdEditId.Text))
+            {
+                MessageBox.Show("Inserire id");
+                return;
+            }
+
+            var sel = products.FirstOrDefault(f => f.Id == txtProdEditId.Text);
+            if (sel == null)
+            {
+                MessageBox.Show("Non trovato");
+                return;
+            }
+
+            sel.Certification = txtProdEditCertifications.Text;
+        }
+
+        private void btnProdView_Click(object sender, EventArgs e)
+        {
+            dgvProd.DataSource = null;
+            dgvProd.DataSource = prodForDataGridView(products).ToList();
+        }
+
+
+        private IEnumerable<object> prodForDataGridView(List<Product> f)
+        {
+            return f.Select(_f => new
+            {
+                _f.Id,
+                Prodotto = _f.Name,
+                Categoria = _f.Category,
+                Certificato = _f.Certification,
+            });
         }
     }
 }
