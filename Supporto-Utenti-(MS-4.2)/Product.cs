@@ -32,9 +32,25 @@ namespace Supporto_Utenti__MS_4._2_
             get { return _certification; }
             set
             {
-                var c = value.Trim().ToUpper();
+                string c = null;
+                if (value != null)
+                    c = value.Trim().ToUpper();
                 _certification = c;
             }
+        }
+
+        public Product(string id, string name, FoodCategory f, string certification = null)
+        {
+            if (string.IsNullOrEmpty(id) || id.Length != 10 || Product._takenIds.Contains(id))
+            {
+                throw new Exception("Id non conforme o gia occupato");
+            }
+            
+            this._id = id;
+            Name = name;
+            Category = f;
+            Certification = certification;
+            Product._takenIds.Add(id);
         }
     }
 }

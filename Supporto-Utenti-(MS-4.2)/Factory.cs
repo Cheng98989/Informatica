@@ -53,8 +53,9 @@ namespace Supporto_Utenti__MS_4._2_
                 _maxCapacity = value;
             }
         }
-        public CertificationsSet Certifications { get; set; }
-        public Factory(string id, string name, string town, string[] s = null)
+        private CertificationsSet certifications = new CertificationsSet(null);
+        public CertificationsSet Certifications => certifications;
+        public Factory(string id, string name, string town, int maxCap)
         {
             if (string.IsNullOrEmpty(id) || id.Length != 6)
                 throw new Exception("Factory's id is not valid");
@@ -63,9 +64,29 @@ namespace Supporto_Utenti__MS_4._2_
             _id = id;
             Name = name;
             Town = town;
-            Certifications = new CertificationsSet(s);
-            Factory._takenIds.Add(town);
+            MaxCapacity = maxCap;
+            
+            Factory._takenIds.Add(id);
         }
+
+
+
+        public void SetCertifications(List<string> c)
+        {
+            CertificationsSet _c = new CertificationsSet(c.ToArray());
+            certifications = _c;
+        }
+
+        public void SetProducedCategories(List<FoodCategory> f)
+        {
+            HashSet<FoodCategory> _f = new HashSet<FoodCategory>() { };
+            foreach(var i in f)
+            {
+                _f.Add(i);
+            }
+        }
+
+
 
         
     }

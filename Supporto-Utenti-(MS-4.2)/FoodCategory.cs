@@ -10,7 +10,7 @@ namespace Supporto_Utenti__MS_4._2_
     {
         private readonly HashSet<string> _admitedFoodCategories = new HashSet<string>()
         {
-            "ORTOFRUTTTA",
+            "ORTOFRUTTA",
             "LATTICINI",
             "CARNI",
             "CONSERVE",
