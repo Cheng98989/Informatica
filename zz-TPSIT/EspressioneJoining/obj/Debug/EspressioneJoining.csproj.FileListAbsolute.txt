@@ -1,0 +1,11 @@
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.csproj.AssemblyReference.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.Form1.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.Properties.Resources.resources
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.csproj.GenerateResource.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.csproj.CoreCompileInputs.cache
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\bin\Debug\EspressioneJoining.exe.config
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\bin\Debug\EspressioneJoining.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\bin\Debug\EspressioneJoining.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.exe
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.pdb
+C:\Users\hu.23119\Documents\GitHub\Informatica\zz-TPSIT\EspressioneJoining\obj\Debug\EspressioneJoining.exe.config
