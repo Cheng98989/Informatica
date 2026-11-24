@@ -1,0 +1,59 @@
+## Esercitazione di Laboratorio: Sistema di Gestione Compagnia Aerea
+
+**Introduzione**
+Una compagnia aerea emergente, "SkyLink Express", sta cercando di modernizzare il proprio sistema di gestione interno. L'obiettivo è sviluppare un'applicazione che consenta di gestire in modo efficiente i voli, le tratte, i biglietti venduti e le informazioni sui passeggeri, migliorando l'organizzazione e il servizio. Gli studenti sono chiamati a sviluppare il prototipo di questo sistema utilizzando le conoscenze acquisite sulla programmazione orientata agli oggetti e sull'interfaccia utente grafica.
+
+**Specifiche dei Dati**
+L'applicazione dovrà gestire le seguenti entità e i relativi campi, implementandole come classi C#:
+
+*   **Classe `Tratta`**: Rappresenta una specifica rotta aerea tra due aeroporti.
+    *   `CodiceTratta` (string): Identificativo univoco della tratta (es. "ROMA-MILANO").
+    *   `AeroportoPartenza` (string): Codice IATA dell'aeroporto di partenza (es. "FCO").
+    *   `AeroportoDestinazione` (string): Codice IATA dell'aeroporto di destinazione (es. "LIN").
+    *   `DistanzaKM` (int): Distanza in chilometri della tratta. Deve essere un valore maggiore di 0.
+    *   `DurataStimataMinuti` (int): Durata stimata del volo in minuti. Deve essere un valore maggiore di 0.
+    *   *Nota*: Incapsulare correttamente i campi.
+
+*   **Classe `Volo`**: Rappresenta un volo specifico che utilizza una determinata tratta.
+    *   `CodiceVolo` (string): Identificativo univoco del volo (es. "AZ123").
+    *   `DataOraPartenza` (DateTime): Data e ora esatta di partenza del volo.
+    *   `PostiDisponibili` (int): Numero di posti ancora disponibili per la vendita. Deve essere un valore non negativo.
+    *   `PrezzoBase` (decimal): Prezzo base di un biglietto per questo volo. Deve essere un valore maggiore di 0.
+    *   **`TrattaAssociata` (istanza di `Tratta`)**: Oggetto della classe `Tratta` che descrive la rotta di questo volo. **Questa è la classe composta.**
+    *   *Nota*: Incapsulare correttamente i campi.
+
+*   **Classe `Biglietto`**: Rappresenta un biglietto venduto per un volo.
+    *   `CodiceBiglietto` (string): Identificativo univoco del biglietto.
+    *   `CodiceVoloRiferimento` (string): Codice del volo a cui il biglietto è associato (deve fare riferimento a un `CodiceVolo` esistente).
+    *   `NomePasseggero` (string): Nome del passeggero.
+    *   `CognomePasseggero` (string): Cognome del passeggero.
+    *   `PrezzoFinale` (decimal): Prezzo effettivo pagato per il biglietto. Deve essere calcolato in base al `PrezzoBase` del volo e può subire eventuali maggiorazioni.
+    *   `DataAcquisto` (DateTime): Data e ora dell'acquisto del biglietto.
+    *   *Nota*: Incapsulare correttamente i campi.
+
+Le liste di oggetti (List<T>) dovranno essere utilizzate per memorizzare le istanze delle classi `Tratta`, `Volo` e `Biglietto`.
+
+**Funzionalità Richieste**
+L'applicazione dovrà consentire di:
+
+1.  **Gestione Tratte:**
+    *   Inserire una nuova tratta (verificando l'unicità del `CodiceTratta`).
+    *   Visualizzare l'elenco di tutte le tratte disponibili.
+2.  **Gestione Voli (CRUD):**
+    *   Inserire un nuovo volo, associandolo ad una `Tratta` esistente (selezionabile da un elenco). Verificare l'unicità del `CodiceVolo`.
+    *   Modificare i dettagli di un volo esistente (es. `PostiDisponibili`, `PrezzoBase`) dato il `CodiceVolo`.
+    *   Cancellare un volo dato il `CodiceVolo`. La cancellazione è consentita solo se non ci sono biglietti associati a quel volo.
+    *   Visualizzare l'elenco completo di tutti i voli, inclusi i dettagli della tratta associata.
+3.  **Gestione Biglietti (CRUD):**
+    *   Inserire un nuovo biglietto per un volo esistente (selezionabile da un elenco). L'inserimento di un biglietto deve comportare la riduzione di 1 unità dei `PostiDisponibili` del volo associato. Verificare che ci siano posti disponibili e l'unicità del `CodiceBiglietto`.
+    *   Modificare i dati del passeggero (Nome, Cognome) di un biglietto esistente dato il `CodiceBiglietto`.
+    *   Cancellare un biglietto dato il `CodiceBiglietto`. La cancellazione deve comportare l'aumento di 1 unità dei `PostiDisponibili` del volo associato.
+    *   Visualizzare l'elenco completo di tutti i biglietti venduti, inclusi i dettagli del volo e della tratta associata.
+4.  **Funzionalità di Analisi (in ordine di difficoltà crescente):**
+    *   Visualizzare tutti i voli con partenza da un `AeroportoPartenza` specifico e destinazione in un `AeroportoDestinazione` specifico, ordinati per `DataOraPartenza` crescente.
+    *   Calcolare e visualizzare il numero totale di biglietti venduti e l'incasso complessivo per un volo specifico, dato il suo `CodiceVolo`.
+    *   Visualizzare l'elenco dei voli che hanno meno di `N` posti disponibili (dove `N` è un valore numerico inserito dall'utente), ordinati per `PostiDisponibili` crescenti.
+    *   Identificare la tratta più lunga (in `DistanzaKM`) tra tutte quelle registrate nel sistema e visualizzare tutti i voli che utilizzano tale tratta, specificando per ciascun volo i posti disponibili.
+
+---
+*Nota: Questo documento è stato generato interamente dall'Intelligenza Artificiale (AI). Si consiglia sempre una verifica della traccia da parte dello studente.*

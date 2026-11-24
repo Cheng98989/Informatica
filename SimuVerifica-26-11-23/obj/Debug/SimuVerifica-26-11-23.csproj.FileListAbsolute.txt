@@ -1,0 +1,10 @@
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\bin\Debug\SimuVerifica-26-11-23.exe.config
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\bin\Debug\SimuVerifica-26-11-23.exe
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\bin\Debug\SimuVerifica-26-11-23.pdb
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\obj\Debug\SimuVerifica-26-11-23.csproj.AssemblyReference.cache
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\obj\Debug\SimuVerifica_26_11_23.Form1.resources
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\obj\Debug\SimuVerifica_26_11_23.Properties.Resources.resources
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\obj\Debug\SimuVerifica-26-11-23.csproj.GenerateResource.cache
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\obj\Debug\SimuVerifica-26-11-23.csproj.CoreCompileInputs.cache
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\obj\Debug\SimuVerifica-26-11-23.exe
+D:\C-Sharp\GitHub\Informatica\SimuVerifica-26-11-23\obj\Debug\SimuVerifica-26-11-23.pdb
