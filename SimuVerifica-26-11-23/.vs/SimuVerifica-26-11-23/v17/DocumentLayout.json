@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\simuverifica-26-11-23\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\simuverifica-26-11-23\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\simuverifica-26-11-23\\teamlead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|solutionrelative:teamlead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|c:\\users\\hu.23119\\documents\\github\\informatica\\simuverifica-26-11-23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6370B68C-2C69-470C-97B6-1BBC039F7AF2}|SimuVerifica-26-11-23.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAAAC4BAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T09:19:57.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T09:07:49.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeamLead.cs",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\TeamLead.cs",
+              "RelativeDocumentMoniker": "TeamLead.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\TeamLead.cs",
+              "RelativeToolTip": "TeamLead.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwIsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T09:07:49.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hu.23119\\Documents\\GitHub\\Informatica\\SimuVerifica-26-11-23\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-25T09:07:44.509Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 146,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -36,6 +36,8 @@ namespace SimuVerifica_26_11_23
 
             teamLeadComboboxs.Add(cboProjSavLead);
             teamLeadComboboxs.Add(cboProjModLead);
+            teamLeadComboboxs.Add(cboLeadComA);
+            teamLeadComboboxs.Add(cboLeadComB);
 
             cboProjSavState.Items.Clear();
             cboProjModState.Items.Clear();
@@ -63,7 +65,7 @@ namespace SimuVerifica_26_11_23
             {
                 foreach (var c in teamLeadComboboxs)
                 {
-                    c.Items.Add(i.Value.Id);
+                    c.Items.Add(i.Value);
                 }
             }
         }
@@ -191,7 +193,7 @@ namespace SimuVerifica_26_11_23
 
         private void btnViewLead_Click(object sender, EventArgs e)
         {
-            updateDataGridView(teamLeads.Values.ToList());
+            updateDataGridView(teamLeads.Values.ToList().Sort());
         }
 
         private void btnViewProj_Click(object sender, EventArgs e)
@@ -332,6 +334,29 @@ namespace SimuVerifica_26_11_23
             teamLeads.Remove(txtLeadDelId.Text);
             updateTeamLeadComboboxs();
             updateDataGridView(teamLeads.Values.ToList());
+        }
+
+        private void btnCompare_Click(object sender, EventArgs e)
+        {
+            TeamLead a = cboLeadComA.SelectedItem as TeamLead;
+            TeamLead b = cboLeadComB.SelectedItem as TeamLead;
+
+
+            var i = a.CompareTo(b);
+            string c;
+            switch(i){
+                case 1:
+                    c = $"{a.Surname + a.Name} > {b.Surname + b.Name} ";
+                    break;
+                case 0:
+                    c = $"{a.Surname + a.Name} = {b.Surname + b.Name} ";
+                    break;
+                default:
+                    c = $"{a.Surname + a.Name} < {b.Surname + b.Name} ";
+                    break;
+            }
+
+            lblCompare.Text = c;
         }
     }
 }

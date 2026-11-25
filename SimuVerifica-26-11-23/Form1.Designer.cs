@@ -42,6 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtLeadSavId = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.btnLeadMod = new System.Windows.Forms.Button();
             this.btnLeadModSearch = new System.Windows.Forms.Button();
             this.lblLeadModId = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -53,6 +54,10 @@
             this.label15 = new System.Windows.Forms.Label();
             this.txtLeadModName = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.txtLeadDel = new System.Windows.Forms.Button();
+            this.label28 = new System.Windows.Forms.Label();
+            this.txtLeadDelId = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -74,11 +79,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtProjSavId = new System.Windows.Forms.TextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.dgvViewer = new System.Windows.Forms.DataGridView();
-            this.btnLeadMod = new System.Windows.Forms.Button();
-            this.btnViewLead = new System.Windows.Forms.Button();
-            this.btnViewProj = new System.Windows.Forms.Button();
+            this.btnProjModSearch = new System.Windows.Forms.Button();
+            this.lblProjModId = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txtProjModId = new System.Windows.Forms.TextBox();
             this.cboProjModLead = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -95,18 +99,22 @@
             this.label24 = new System.Windows.Forms.Label();
             this.txtProjModName = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.txtProjModId = new System.Windows.Forms.TextBox();
-            this.lblProjModId = new System.Windows.Forms.Label();
-            this.btnProjModSearch = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.btnProjDel = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.txtProjDelId = new System.Windows.Forms.TextBox();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.txtLeadDel = new System.Windows.Forms.Button();
-            this.label28 = new System.Windows.Forms.Label();
-            this.txtLeadDelId = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnViewProj = new System.Windows.Forms.Button();
+            this.btnViewLead = new System.Windows.Forms.Button();
+            this.dgvViewer = new System.Windows.Forms.DataGridView();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.label29 = new System.Windows.Forms.Label();
+            this.cboLeadComA = new System.Windows.Forms.ComboBox();
+            this.cboLeadComB = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.btnCompare = new System.Windows.Forms.Button();
+            this.lblCompare = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -114,16 +122,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudLeadSavExp)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudLeadModExp)).BeginInit();
+            this.tabPage8.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudProjSavBudget)).BeginInit();
             this.tabPage6.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvViewer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProjModBuget)).BeginInit();
             this.tabPage7.SuspendLayout();
-            this.tabPage8.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvViewer)).BeginInit();
+            this.tabPage9.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -153,6 +162,7 @@
             this.tabControl2.Controls.Add(this.tabPage3);
             this.tabControl2.Controls.Add(this.tabPage4);
             this.tabControl2.Controls.Add(this.tabPage8);
+            this.tabControl2.Controls.Add(this.tabPage9);
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl2.Location = new System.Drawing.Point(3, 3);
             this.tabControl2.Name = "tabControl2";
@@ -275,6 +285,16 @@
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // btnLeadMod
+            // 
+            this.btnLeadMod.Location = new System.Drawing.Point(37, 294);
+            this.btnLeadMod.Name = "btnLeadMod";
+            this.btnLeadMod.Size = new System.Drawing.Size(196, 28);
+            this.btnLeadMod.TabIndex = 23;
+            this.btnLeadMod.Text = "SALVA";
+            this.btnLeadMod.UseVisualStyleBackColor = true;
+            this.btnLeadMod.Click += new System.EventHandler(this.btnLeadMod_Click);
+            // 
             // btnLeadModSearch
             // 
             this.btnLeadModSearch.Location = new System.Drawing.Point(14, 102);
@@ -366,6 +386,45 @@
             this.label16.Size = new System.Drawing.Size(18, 13);
             this.label16.TabIndex = 11;
             this.label16.Text = "ID";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.txtLeadDel);
+            this.tabPage8.Controls.Add(this.label28);
+            this.tabPage8.Controls.Add(this.txtLeadDelId);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(350, 392);
+            this.tabPage8.TabIndex = 2;
+            this.tabPage8.Text = "tabPage8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // txtLeadDel
+            // 
+            this.txtLeadDel.Location = new System.Drawing.Point(56, 163);
+            this.txtLeadDel.Name = "txtLeadDel";
+            this.txtLeadDel.Size = new System.Drawing.Size(196, 28);
+            this.txtLeadDel.TabIndex = 25;
+            this.txtLeadDel.Text = "SALVA";
+            this.txtLeadDel.UseVisualStyleBackColor = true;
+            this.txtLeadDel.Click += new System.EventHandler(this.txtLeadDel_Click);
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(53, 144);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(18, 13);
+            this.label28.TabIndex = 24;
+            this.label28.Text = "ID";
+            // 
+            // txtLeadDelId
+            // 
+            this.txtLeadDelId.Location = new System.Drawing.Point(132, 137);
+            this.txtLeadDelId.Name = "txtLeadDelId";
+            this.txtLeadDelId.Size = new System.Drawing.Size(120, 20);
+            this.txtLeadDelId.TabIndex = 23;
             // 
             // tabPage2
             // 
@@ -592,54 +651,40 @@
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // panel1
+            // btnProjModSearch
             // 
-            this.panel1.Controls.Add(this.btnViewProj);
-            this.panel1.Controls.Add(this.btnViewLead);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(372, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(428, 100);
-            this.panel1.TabIndex = 1;
+            this.btnProjModSearch.Location = new System.Drawing.Point(6, 29);
+            this.btnProjModSearch.Name = "btnProjModSearch";
+            this.btnProjModSearch.Size = new System.Drawing.Size(196, 19);
+            this.btnProjModSearch.TabIndex = 48;
+            this.btnProjModSearch.Text = "SALVA";
+            this.btnProjModSearch.UseVisualStyleBackColor = true;
+            this.btnProjModSearch.Click += new System.EventHandler(this.btnProjModSearch_Click);
             // 
-            // dgvViewer
+            // lblProjModId
             // 
-            this.dgvViewer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvViewer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvViewer.Location = new System.Drawing.Point(372, 100);
-            this.dgvViewer.Name = "dgvViewer";
-            this.dgvViewer.Size = new System.Drawing.Size(428, 350);
-            this.dgvViewer.TabIndex = 2;
+            this.lblProjModId.AutoSize = true;
+            this.lblProjModId.Location = new System.Drawing.Point(86, 69);
+            this.lblProjModId.Name = "lblProjModId";
+            this.lblProjModId.Size = new System.Drawing.Size(18, 13);
+            this.lblProjModId.TabIndex = 47;
+            this.lblProjModId.Text = "ID";
             // 
-            // btnLeadMod
+            // label26
             // 
-            this.btnLeadMod.Location = new System.Drawing.Point(37, 294);
-            this.btnLeadMod.Name = "btnLeadMod";
-            this.btnLeadMod.Size = new System.Drawing.Size(196, 28);
-            this.btnLeadMod.TabIndex = 23;
-            this.btnLeadMod.Text = "SALVA";
-            this.btnLeadMod.UseVisualStyleBackColor = true;
-            this.btnLeadMod.Click += new System.EventHandler(this.btnLeadMod_Click);
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(9, 13);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(18, 13);
+            this.label26.TabIndex = 46;
+            this.label26.Text = "ID";
             // 
-            // btnViewLead
+            // txtProjModId
             // 
-            this.btnViewLead.Location = new System.Drawing.Point(69, 25);
-            this.btnViewLead.Name = "btnViewLead";
-            this.btnViewLead.Size = new System.Drawing.Size(75, 23);
-            this.btnViewLead.TabIndex = 0;
-            this.btnViewLead.Text = "button1";
-            this.btnViewLead.UseVisualStyleBackColor = true;
-            this.btnViewLead.Click += new System.EventHandler(this.btnViewLead_Click);
-            // 
-            // btnViewProj
-            // 
-            this.btnViewProj.Location = new System.Drawing.Point(194, 22);
-            this.btnViewProj.Name = "btnViewProj";
-            this.btnViewProj.Size = new System.Drawing.Size(75, 23);
-            this.btnViewProj.TabIndex = 1;
-            this.btnViewProj.Text = "button2";
-            this.btnViewProj.UseVisualStyleBackColor = true;
-            this.btnViewProj.Click += new System.EventHandler(this.btnViewProj_Click);
+            this.txtProjModId.Location = new System.Drawing.Point(88, 6);
+            this.txtProjModId.Name = "txtProjModId";
+            this.txtProjModId.Size = new System.Drawing.Size(120, 20);
+            this.txtProjModId.TabIndex = 45;
             // 
             // cboProjModLead
             // 
@@ -779,41 +824,6 @@
             this.label25.TabIndex = 29;
             this.label25.Text = "ID";
             // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(9, 13);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(18, 13);
-            this.label26.TabIndex = 46;
-            this.label26.Text = "ID";
-            // 
-            // txtProjModId
-            // 
-            this.txtProjModId.Location = new System.Drawing.Point(88, 6);
-            this.txtProjModId.Name = "txtProjModId";
-            this.txtProjModId.Size = new System.Drawing.Size(120, 20);
-            this.txtProjModId.TabIndex = 45;
-            // 
-            // lblProjModId
-            // 
-            this.lblProjModId.AutoSize = true;
-            this.lblProjModId.Location = new System.Drawing.Point(86, 69);
-            this.lblProjModId.Name = "lblProjModId";
-            this.lblProjModId.Size = new System.Drawing.Size(18, 13);
-            this.lblProjModId.TabIndex = 47;
-            this.lblProjModId.Text = "ID";
-            // 
-            // btnProjModSearch
-            // 
-            this.btnProjModSearch.Location = new System.Drawing.Point(6, 29);
-            this.btnProjModSearch.Name = "btnProjModSearch";
-            this.btnProjModSearch.Size = new System.Drawing.Size(196, 19);
-            this.btnProjModSearch.TabIndex = 48;
-            this.btnProjModSearch.Text = "SALVA";
-            this.btnProjModSearch.UseVisualStyleBackColor = true;
-            this.btnProjModSearch.Click += new System.EventHandler(this.btnProjModSearch_Click);
-            // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.btnProjDel);
@@ -853,44 +863,123 @@
             this.txtProjDelId.Size = new System.Drawing.Size(120, 20);
             this.txtProjDelId.TabIndex = 49;
             // 
-            // tabPage8
+            // panel1
             // 
-            this.tabPage8.Controls.Add(this.txtLeadDel);
-            this.tabPage8.Controls.Add(this.label28);
-            this.tabPage8.Controls.Add(this.txtLeadDelId);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(350, 392);
-            this.tabPage8.TabIndex = 2;
-            this.tabPage8.Text = "tabPage8";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            this.panel1.Controls.Add(this.btnViewProj);
+            this.panel1.Controls.Add(this.btnViewLead);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(372, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(428, 100);
+            this.panel1.TabIndex = 1;
             // 
-            // txtLeadDel
+            // btnViewProj
             // 
-            this.txtLeadDel.Location = new System.Drawing.Point(56, 163);
-            this.txtLeadDel.Name = "txtLeadDel";
-            this.txtLeadDel.Size = new System.Drawing.Size(196, 28);
-            this.txtLeadDel.TabIndex = 25;
-            this.txtLeadDel.Text = "SALVA";
-            this.txtLeadDel.UseVisualStyleBackColor = true;
-            this.txtLeadDel.Click += new System.EventHandler(this.txtLeadDel_Click);
+            this.btnViewProj.Location = new System.Drawing.Point(194, 22);
+            this.btnViewProj.Name = "btnViewProj";
+            this.btnViewProj.Size = new System.Drawing.Size(75, 23);
+            this.btnViewProj.TabIndex = 1;
+            this.btnViewProj.Text = "button2";
+            this.btnViewProj.UseVisualStyleBackColor = true;
+            this.btnViewProj.Click += new System.EventHandler(this.btnViewProj_Click);
             // 
-            // label28
+            // btnViewLead
             // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(53, 144);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(18, 13);
-            this.label28.TabIndex = 24;
-            this.label28.Text = "ID";
+            this.btnViewLead.Location = new System.Drawing.Point(69, 25);
+            this.btnViewLead.Name = "btnViewLead";
+            this.btnViewLead.Size = new System.Drawing.Size(75, 23);
+            this.btnViewLead.TabIndex = 0;
+            this.btnViewLead.Text = "button1";
+            this.btnViewLead.UseVisualStyleBackColor = true;
+            this.btnViewLead.Click += new System.EventHandler(this.btnViewLead_Click);
             // 
-            // txtLeadDelId
+            // dgvViewer
             // 
-            this.txtLeadDelId.Location = new System.Drawing.Point(132, 137);
-            this.txtLeadDelId.Name = "txtLeadDelId";
-            this.txtLeadDelId.Size = new System.Drawing.Size(120, 20);
-            this.txtLeadDelId.TabIndex = 23;
+            this.dgvViewer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvViewer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvViewer.Location = new System.Drawing.Point(372, 100);
+            this.dgvViewer.Name = "dgvViewer";
+            this.dgvViewer.Size = new System.Drawing.Size(428, 350);
+            this.dgvViewer.TabIndex = 2;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.lblCompare);
+            this.tabPage9.Controls.Add(this.btnCompare);
+            this.tabPage9.Controls.Add(this.label31);
+            this.tabPage9.Controls.Add(this.label30);
+            this.tabPage9.Controls.Add(this.cboLeadComB);
+            this.tabPage9.Controls.Add(this.cboLeadComA);
+            this.tabPage9.Controls.Add(this.label29);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(350, 392);
+            this.tabPage9.TabIndex = 3;
+            this.tabPage9.Text = "tabPage9";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(34, 53);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(84, 13);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "test icomparable";
+            // 
+            // cboLeadComA
+            // 
+            this.cboLeadComA.FormattingEnabled = true;
+            this.cboLeadComA.Location = new System.Drawing.Point(136, 106);
+            this.cboLeadComA.Name = "cboLeadComA";
+            this.cboLeadComA.Size = new System.Drawing.Size(121, 21);
+            this.cboLeadComA.TabIndex = 28;
+            // 
+            // cboLeadComB
+            // 
+            this.cboLeadComB.FormattingEnabled = true;
+            this.cboLeadComB.Location = new System.Drawing.Point(136, 149);
+            this.cboLeadComB.Name = "cboLeadComB";
+            this.cboLeadComB.Size = new System.Drawing.Size(121, 21);
+            this.cboLeadComB.TabIndex = 29;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(50, 113);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(14, 13);
+            this.label30.TabIndex = 30;
+            this.label30.Text = "A";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(50, 157);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(14, 13);
+            this.label31.TabIndex = 31;
+            this.label31.Text = "B";
+            // 
+            // btnCompare
+            // 
+            this.btnCompare.Location = new System.Drawing.Point(42, 196);
+            this.btnCompare.Name = "btnCompare";
+            this.btnCompare.Size = new System.Drawing.Size(75, 23);
+            this.btnCompare.TabIndex = 32;
+            this.btnCompare.Text = "button1";
+            this.btnCompare.UseVisualStyleBackColor = true;
+            this.btnCompare.Click += new System.EventHandler(this.btnCompare_Click);
+            // 
+            // lblCompare
+            // 
+            this.lblCompare.AutoSize = true;
+            this.lblCompare.Location = new System.Drawing.Point(154, 230);
+            this.lblCompare.Name = "lblCompare";
+            this.lblCompare.Size = new System.Drawing.Size(41, 13);
+            this.lblCompare.TabIndex = 33;
+            this.lblCompare.Text = "label32";
             // 
             // Form1
             // 
@@ -911,6 +1000,8 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudLeadModExp)).EndInit();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
@@ -918,13 +1009,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudProjSavBudget)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvViewer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudProjModBuget)).EndInit();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
-            this.tabPage8.ResumeLayout(false);
-            this.tabPage8.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvViewer)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1010,6 +1101,14 @@
         private System.Windows.Forms.Button txtLeadDel;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.TextBox txtLeadDelId;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.ComboBox cboLeadComB;
+        private System.Windows.Forms.ComboBox cboLeadComA;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Button btnCompare;
+        private System.Windows.Forms.Label lblCompare;
     }
 }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SimuVerifica_26_11_23
 {
-    public class TeamLead : IDisposable, IEquatable<TeamLead>
+    public class TeamLead : IDisposable, IEquatable<TeamLead>, IComparable<TeamLead>, IComparable
     {
         private static List<string> _takenIds = new List<string>() { };
         private string _id;
@@ -103,7 +103,7 @@ namespace SimuVerifica_26_11_23
 
         public override string ToString()
         {
-            return $"{this._id}, {this.Name}, {this.Surname}, {this.Experience} anni di esperienza";
+            return $"{this._id}";
         }
         public bool Equals(TeamLead other)
         {
@@ -120,6 +120,24 @@ namespace SimuVerifica_26_11_23
         public override int GetHashCode()
         {
             return _id.GetHashCode();
+        }
+
+        public int CompareTo(TeamLead l)
+        {
+            if (l == null)
+                return 1;
+
+            return string.Compare(this._surname + this._name, l._surname+l._name);
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (obj == null)
+                throw new Exception("Istanza da comparare nulla");
+            TeamLead other = obj as TeamLead;
+            if (other == null)
+                throw new Exception("L'istanza non è un team lead");
+            return CompareTo(other);
         }
 
     }
